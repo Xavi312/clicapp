@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IndLabDevelopExample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="write_text">Write a comment here</string>
+    <string name="reciever_text">Set comment as Reciever</string>
+    <string name="sender_text">Set comment as Sender</string>
+    <string name="send_text">Send</string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/date_time_layout"
+
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="la fecha del momento
+            "/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="25dp"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@+id/glove_text_view"
+        android:background="@drawable/reciever_conv"
+        android:id="@+id/tail_text_view"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/reciever_glove"
+        android:id="@+id/glove_text_view"
+        android:maxWidth="250dp"
+        android:text="en casa de roberto hay un perro muerto y el que diga cerose lo come muerto muerto de verdady en la casa de roberto
+        "
+        android:paddingTop="15dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="15dp"
+        android:layout_toRightOf="@+id/tail_text_view"
+        android:layout_below="@+id/date_time_layout"
+        />
+</RelativeLayout>

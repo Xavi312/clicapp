@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="left"
+    android:paddingTop="30dp"
+    android:background="@drawable/white_background">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/date_time_layout"
+        android:layout_alignLeft="@+id/comment_body"
+        android:layout_alignRight="@+id/comment_body"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/date_time_text"
+
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+            <TextView
+                android:layout_width="25dp"
+                android:layout_height="15dp"
+                android:layout_above="@+id/comment_body"
+                android:layout_alignBottom="@+id/comment_body"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/reciever_conv"
+                android:id="@+id/globe_tail"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="200dp"
+                android:textIsSelectable="true"
+
+                android:id="@+id/comment_body"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/date_time_layout"
+
+                android:background="@drawable/reciever_glove"
+
+                android:paddingTop="15dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="15dp"
+                android:paddingBottom="10dp"
+                android:layout_toRightOf="@+id/globe_tail"
+
+/>
+</RelativeLayout>
